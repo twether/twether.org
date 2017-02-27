@@ -1,0 +1,34 @@
+
+canvas
+{  
+	display: block;
+	top:0;
+	left:0;
+	margin: 0;  
+	padding: 0;
+	width: 100%;  
+	height: 100%;
+	position: absolute;
+    overflow: hidden;
+}
+
+div.horizontal
+{
+    display: flex;
+    justify-content: center;
+	top:0;
+	left:0;
+	margin: 0;  
+	padding: 0;
+	width: 100%;  
+	height: 100%;
+	position: absolute;
+    overflow: hidden;
+}
+
+div.vertical
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
